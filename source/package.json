@@ -1,0 +1,10 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "~4.16.1",
+    "html-metadata": "^1.7.1",
+    "mongoose": "^5.12.13",
+    "request": "^2.88.2"
+  }
+}
