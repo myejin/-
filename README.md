@@ -1,6 +1,6 @@
 # Docker_Nginx_Express_MongoDB
 
-### 1. How to RUn
+### 1. How to Run
 
 ```bash
 $ docker-compose up -d
