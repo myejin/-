@@ -1,12 +1,12 @@
 # Docker_Nginx_Express_MongoDB
 
-### 1. Usage
+### 1. How to RUn
 
 ```bash
 $ docker-compose up -d
 ```
 
-### 2. Curl test
+### 2. Curl Test
 
 ```
 curl -X POST -H 'Accept: application/json' -H 'Content-Type: application/json' "http://[IP address]:8000/metadata" -d '{ "url": "https://daum.net" }' | jq
