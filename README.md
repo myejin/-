@@ -1,15 +1,15 @@
 # Webpage Metadata Crawler
 
-## 0. Summary 
+## :bulb: Summary 
 - 
 ---
-## 1. How to Run
+## :bulb: How to Run
 :heavy_check_mark: docker 및 docker-compose 사전 설치
 ```bash
 $ docker-compose up -d
 ```
----
-## 2. Curl Test
+--- 
+## :bulb: Curl Test
 - `curl -X POST -H 'Accept: application/json' -H 'Content-Type: application/json' "http://[IP address]:8000/metadata" -d '{ "url": "https://daum.net" }'`
 ```
 {
@@ -54,6 +54,6 @@ $ docker-compose up -d
 }]
 ```
 ---
-### 3. Structure
+## :bulb: Structure
 
 ![그림3](https://user-images.githubusercontent.com/42771578/123518823-b2769180-d6e2-11eb-8234-508a1a0b414b.png)
