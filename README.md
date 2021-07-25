@@ -21,7 +21,6 @@ $ docker-compose up -d
 - prettier
 - eslint-config-prettier
 - eslint-plugin-prettier
-- eslint-plugin-react
 --- 
 ## :bulb: Curl Test
 - `curl -X POST -H 'Accept: application/json' -H 'Content-Type: application/json' "http://[IP address]:8000/metadata" -d '{ "url": "https://daum.net" }'`
